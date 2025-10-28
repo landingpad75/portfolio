@@ -81,24 +81,7 @@ const Preloader: React.FC<PreloaderProps> = ({ isLoading }) => {
               </div>
               <span className="progress-text">{progress}%</span>
             </div>
-            <div className="loading-dots">
-              <span>Compiling components</span>
-              <span className="dot-animation">
-                <span>.</span>
-                <span>.</span>
-                <span>.</span>
-              </span>
-            </div>
-            {progress === 100 && (
-              <div className="completion-message">
-                <span className="success-text">✓ System ready. Launching portfolio...</span>
-              </div>
-            )}
           </div>
-        </div>
-        <div className="preloader-brand">
-          <div className="brand-logo">SKY</div>
-          <div className="brand-subtitle">Backend Systems Architect</div>
         </div>
       </div>
     </div>

@@ -9,11 +9,11 @@ const AboutSection: React.FC = () => {
   const skills: SkillGroup[] = [
     {
       category: "Languages & Technologies",
-      items: ["Modern C++23", "JavaScript/TypeScript", "Node.js", "x86 Assembly (16/32-bit)", "REST APIs", "System Programming"]
+      items: ["Modern C++", "JavaScript/TypeScript", "x86 Assembly (16/32-bit)"]
     },
     {
       category: "Specialties",
-      items: ["High-performance Applications", "Operating Systems", "Backend Development", "Low-level Optimization", "Problem Solving"]
+      items: ["Applications", "Operating Systems", "Backend Development", "Problem Creation"]
     }
   ];
 
@@ -25,12 +25,11 @@ const AboutSection: React.FC = () => {
           <div className="about-text">
             <p className="about-intro">
               With over <span className="highlight">6 years of experience</span> in backend development, 
-              I specialize in creating awesome (but sometimes dumb), high-performance applications 
-              and operating systems.
+              I work on some interesting pieces of software that would most likely never see the light of day.
             </p>
             <p>
               My passion lies in <span className="highlight">solving problems nobody cares about</span> and 
-              building crazy projects that I surely can't maintain alone (yet I do it, somehow).
+              building random impossible projects for a solo dev.
             </p>
             <p>
               From high-level APIs in JavaScript/TypeScript to getting as low-level as Assembly 

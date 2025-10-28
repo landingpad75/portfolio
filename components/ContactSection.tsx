@@ -37,13 +37,13 @@ const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
-        <h2 className="section-title">Get In Touch</h2>
+        <h2 className="section-title">Contact me</h2>
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Let's Build Something Awesome Together</h3>
+            <h3>Always ready to create!</h3>
             <p>
-              Whether you have an interesting problem that needs solving, 
-              want to collaborate on a crazy project, or just want to say hi, 
+              Whether you have an interesting project, 
+              want to collaborate on a project, or just want to say hi, 
               I'd love to hear from you!
             </p>
             <div className="contact-methods">

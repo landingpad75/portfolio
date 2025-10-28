@@ -17,23 +17,22 @@ const HeroSection: React.FC = () => {
             <span className="title-name">Mohammed Amine Maazioui</span>
             <span className="title-alias">aka Sky</span>
           </h1>
-          <p className="hero-subtitle">Backend Developer & Systems Architect</p>
+          <p className="hero-subtitle">Backend Developer</p>
           <p className="hero-description">
-            Building awesome (but sometimes dumb), high-performance applications 
-            from high-level APIs to low-level Assembly.
+            Living life on the edge&trade;
           </p>
           <div className="hero-buttons">
             <button 
               className="btn btn-primary"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              View My Work
+              My Projects
             </button>
             <button 
               className="btn btn-secondary"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Get In Touch
+              Contact
             </button>
           </div>
         </div>
