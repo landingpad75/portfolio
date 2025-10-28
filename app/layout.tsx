@@ -21,14 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sky - Developer",
     description: "Know more about my world of hopes and dreams",
-    images: [
-      {
-        url: "https://puffy.ink/test.svg",
-        width: 128,
-        height: 128,
-        alt: "picture",
-      },
-    ],
+    images: "https://puffy.ink/test.svg",
   },
 };
 

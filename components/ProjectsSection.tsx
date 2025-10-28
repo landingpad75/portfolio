@@ -11,15 +11,15 @@ const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
       title: "Ecliptix",
-      description: "Developed an awesome safely typed & fast programming language capable of doing (TODO: put stuff here).",
+      description: "Developed an awesome safely typed & fast programming language capable of doing all kinds of general tasks.",
       githubUrl: "https://github.com/EcliptixLang/ecxp",
-      tags: ["Programming Language", "Type System", "Compiler"]
+      tags: ["Programming Language", "Typed", "Interpreter"]
     },
     {
       title: "Icelander",
       description: "C++ ENet wrapper with async support for efficient networking applications.",
       githubUrl: "https://github.com/landing_pad/Icelander",
-      tags: ["C++", "Networking", "Async Programming"]
+      tags: ["C++", "Networking", "Async"]
     }
   ];
 
