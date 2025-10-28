@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Sky - Developer",
     description: "Know more about my world of hopes and dreams",
     images: "https://puffy.ink/test.svg",
-  },
+  }, 
 };
 
 export default function RootLayout({
@@ -32,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="thumbnail" content="test.svg" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
