@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://puffy.ink",
     images: [
       {
-        url: "https://puffy.ink/test.svg",
+        url: "https://puffy.ink/test.png",
         width: 256,
         height: 256,
         alt: "Sky Icon",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary", // this is what u need
     title: "Sky - Developer",
     description: "Know more about my world of hopes and dreams",
-    images: ["https://puffy.ink/test.svg"],
+    images: ["https://puffy.ink/test.png"],
   },
 };
 
