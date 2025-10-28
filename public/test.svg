@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#0f172a"/>
+  
+  <!-- Terminal window style -->
+  <rect x="4" y="4" width="24" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+  
+  <!-- Window dots -->
+  <circle cx="9" cy="9" r="1.5" fill="#ff5f57"/>
+  <circle cx="13" cy="9" r="1.5" fill="#ffbd2e"/>
+  <circle cx="17" cy="9" r="1.5" fill="#28ca42"/>
+  
+  <!-- Code brackets representing development -->
+  <path d="M12 16 L10 18 L12 20 M20 16 L22 18 L20 20" stroke="#7aa2f7" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+</svg>
