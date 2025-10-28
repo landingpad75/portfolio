@@ -18,7 +18,18 @@ export const metadata: Metadata = {
   title: "Sky - Developer",
   description: "Know more about my world of hopes and dreams",
   icons: "../test.svg",
-  
+  openGraph: {
+    title: "Sky - Developer",
+    description: "Know more about my world of hopes and dreams",
+    images: [
+      {
+        url: "../test.svg",
+        width: 512,
+        height: 512,
+        alt: "picture",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
