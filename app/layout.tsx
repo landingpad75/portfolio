@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     description: "Know more about my world of hopes and dreams",
     images: [
       {
-        url: "../test.svg",
-        width: 512,
-        height: 512,
+        url: "https://puffy.ink/test.svg",
+        width: 128,
+        height: 128,
         alt: "picture",
       },
     ],
