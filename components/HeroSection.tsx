@@ -47,14 +47,14 @@ const HeroSection: React.FC = () => {
               <div className="window-title">sky.cpp</div>
             </div>
             <div className="code-content">
-              <div className="code-line"><span className="keyword">#include</span> <span className="string">&lt;passion.h&gt;</span></div>
-              <div className="code-line"><span className="keyword">#include</span> <span className="string">&lt;optimization.h&gt;</span></div>
+              <div className="code-line"><span className="keyword">#include</span> <span className="string">&lt;print&gt;</span></div>
+              <div className="code-line"><span className="keyword">#include</span> <span className="string">&lt;Puffy/Developer.hpp&gt;</span></div>
               <div className="code-line"></div>
               <div className="code-line"><span className="type">int</span> <span className="function">main</span>() {"{"}</div>
-              <div className="code-line">  <span className="class">Developer</span><span className='pointer'>*</span> sky = <span className='pointer'>new</span> <span className='class'>Developer</span>();</div>
-              <div className="code-line">  sky{"->"}<span className="function">specialize</span>(<span className="string">"C++"</span>, <span className="string">"TypeScript"</span>, <span className="string">"Assembly"</span>);</div>
-              <div className="code-line">  sky{"->"}<span className="function">build</span>(<span className="string"></span>);</div>
-              <div className="code-line">  <span className="keyword">return</span> <span className="number">0</span>;</div>
+              <div className="code-line">  <span className="class">Developer</span> sky;</div>
+              <div className="code-line">{"\t"}sky{"->"}<span className="function">specialize</span>(<span className="string">"C++"</span>, <span className="string">"TypeScript"</span>, <span className="string">"Assembly"</span>);</div>
+              <div className="code-line">{"\t"}sky{"->"}<span className="function">build</span>(<span className="string"></span>);</div>
+              <div className="code-line">{"\t"}<span className="keyword">return</span> <span className="number">0</span>;</div>
               <div className="code-line">{"}"}</div>
             </div>
           </div>
