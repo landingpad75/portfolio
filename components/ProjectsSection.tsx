@@ -16,10 +16,16 @@ const ProjectsSection: React.FC = () => {
       tags: ["Programming Language", "Typed", "Interpreter"]
     },
     {
-      title: "Icelander",
-      description: "C++ ENet wrapper with async support for efficient networking applications.",
-      githubUrl: "https://github.com/landing_pad/Icelander",
-      tags: ["C++", "Networking", "Async"]
+      title: "InstantOS",
+      description: "C++ Operating system running on limine.",
+      githubUrl: "https://github.com/landing_pad/Instant",
+      tags: ["C++", "Assembly", "Kernel"]
+    },
+    {
+      title: "SkyPong",
+      description: "Rewrite of my first raylib game, now with multiplayer.",
+      githubUrl: "https://github.com/landing_pad/SkyPong",
+      tags: ["C++", "Raylib", "Multiplayer"]
     }
   ];
 
