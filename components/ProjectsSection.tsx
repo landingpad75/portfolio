@@ -18,13 +18,13 @@ const ProjectsSection: React.FC = () => {
     {
       title: "InstantOS",
       description: "C++ Operating system running on limine.",
-      githubUrl: "https://github.com/landing_pad/Instant",
+      githubUrl: "https://github.com/landingpad75/Instant",
       tags: ["C++", "Assembly", "Kernel"]
     },
     {
       title: "SkyPong",
       description: "Rewrite of my first raylib game, now with multiplayer.",
-      githubUrl: "https://github.com/landing_pad/SkyPong",
+      githubUrl: "https://github.com/landingpad75/SkyPong",
       tags: ["C++", "Raylib", "Multiplayer"]
     }
   ];
