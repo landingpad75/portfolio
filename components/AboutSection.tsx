@@ -24,7 +24,7 @@ const AboutSection: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-intro">
-              With over <span className="highlight">6 years of experience</span> in backend development, 
+              With over <span className="highlight">6 years of experience</span> in C++ backend development, 
               I work on some interesting pieces of software that would most likely never see the light of day.
             </p>
             <p>
