@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import './vouch.css';
+import Link from 'next/link';
 
 interface VouchFormData {
   name: string;
@@ -178,9 +179,9 @@ export default function VouchPage() {
           )}
         </form>
 
-        <a href="/" className="back-link">
+        <Link href="/" className="back-link">
           <i className="fas fa-arrow-left"></i> Back to Portfolio
-        </a>
+        </Link>
       </div>
     </div>
   );
